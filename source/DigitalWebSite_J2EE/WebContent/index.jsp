@@ -304,7 +304,7 @@
     <div class="container">
       <div class="row">
         <div class="span4">
-          <a class="logo" href="Home"><img src="./images/logo.png" alt="ShopSimple" title="ShopSimple"></a>
+          <a class="logo" href="index.jsp"><img src="./images/logo.png" alt="ShopSimple" title="ShopSimple"></a>
         </div>
         <div class="span8">
           <div class="row">
