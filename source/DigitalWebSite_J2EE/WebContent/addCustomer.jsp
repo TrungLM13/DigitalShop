@@ -117,7 +117,7 @@
 
 
                 <li class="has-sub active">
-                  <a href="listUtilisateur.jsp" class="">
+                  <a href="listCustomer.jsp" class="">
                       <span class="icon-box"> <i class="icon-book"></i></span> Users
                       
                   </a>

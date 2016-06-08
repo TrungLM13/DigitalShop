@@ -57,7 +57,7 @@ public class UserServlet extends HttpServlet {
 					   pr.executeUpdate();
 					   pr.close();
 						   
-					   resp.sendRedirect("listUtilisateur.jsp");   
+					   resp.sendRedirect("listCustomer.jsp");   
 					   
 					   
 				} catch (Exception e) {
@@ -158,7 +158,7 @@ public class UserServlet extends HttpServlet {
              } catch (Exception e) {
                      e.printStackTrace();
                    }
-		   req.getRequestDispatcher("listUtilisateur.jsp").forward(req, resp);
+		   req.getRequestDispatcher("listCustomer.jsp").forward(req, resp);
 	   }
 	
       

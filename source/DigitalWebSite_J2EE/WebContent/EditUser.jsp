@@ -1,28 +1,16 @@
 <%@page import="DAO.*"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    
-    
-    <%
-    
+    pageEncoding="ISO-8859-1"%>   
+    <% 
     Utilisateur utilisateur = (Utilisateur) request.getSession().getAttribute("user");
-    	
-    	if(utilisateur == null){
-    		
+    	if(utilisateur == null){   		
     		 System.out.println( "Error!! ");
-    		 response.sendRedirect("login.jsp");
-    		
-    	}else if( utilisateur.getRole().equals("admin") )
-    	   
-        {
-        	
-    		
-        	
-        }else  {
-        	     
+    		 response.sendRedirect("login.jsp");   		
+    	}else if( utilisateur.getRole().equals("admin") )    	   
+        {	
+        }else  {	     
         	response.sendRedirect("Home");
-        }
-   
+        }  
    %>
     <%
              Utilisateur u = (Utilisateur)request.getAttribute("utilisateur");
@@ -110,34 +98,21 @@
          <!-- END RESPONSIVE QUICK SEARCH FORM -->
          <!-- BEGIN SIDEBAR MENU -->
           <ul class="sidebar-menu">
-
                  <li class="has-sub ">
                   <a href="listeCommandes.jsp" class="">
-                      <span class="icon-box"> <i class="icon-book"></i></span> Commades
-                      
+                      <span class="icon-box"> <i class="icon-book"></i></span> Commades                      
                   </a>
-              </li>
-
-
+             	 </li>
                 <li class="has-sub active">
-                  <a href="listUtilisateur.jsp" class="">
-                      <span class="icon-box"> <i class="icon-book"></i></span> Users
-                      
+                  <a href="listCustomer.jsp" class="">
+                      <span class="icon-box"> <i class="icon-book"></i></span> Users   
                   </a>
-              </li>
-
-
+              	</li>
                <li class="has-sub">
                   <a href="listProduit.jsp" class="">
-                      <span class="icon-box"> <i class="icon-book"></i></span> Produits
-                      
+                      <span class="icon-box"> <i class="icon-book"></i></span> Products
                   </a>
               </li>
-        </ul>
-
-
-              </li>
-              
           </ul>
          <!-- END SIDEBAR MENU -->
       </div>
@@ -196,14 +171,9 @@
                                 <a href="javascript:;" class="icon-remove"></a>
                             </span>
                         </div>
-                        <div class="widget-body">
-                        
-                        
-                        
+                        <div class="widget-body">      
                         <form action="ConfirmEdit" method="post">
       <table>
-           
-           
            <tr>
                 <td>ID: </td>
                 <td><input type="text" name="id" value="<%= u.getId()%>"/></td>
@@ -252,7 +222,7 @@
            
            <tr>
                 <td></td>
-                <td><input class="btn btn-warning" type="submit" value="Edit"> <a href="listUtilisateur.jsp"> <input class="btn btn-inverse"  type="button" value="Cancel"> </a></td>
+                <td><input class="btn btn-warning" type="submit" value="Edit"> <a href="listCustomer.jsp"> <input class="btn btn-inverse"  type="button" value="Cancel"> </a></td>
            </tr>
       
       

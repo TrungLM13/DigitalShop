@@ -125,7 +125,7 @@
 
 
                 <li class="has-sub ">
-                  <a href="listUtilisateur.jsp" class="">
+                  <a href="listCustomer.jsp" class="">
                       <span class="icon-box"> <i class="icon-book"></i></span> Users
                       
                   </a>
@@ -139,11 +139,6 @@
                   </a>
               </li>
         </ul>
-
-
-              </li>
-              
-          </ul>
          <!-- END SIDEBAR MENU -->
       </div>
       <!-- END SIDEBAR -->
@@ -236,7 +231,7 @@
                              </tbody>
                         </table>
                         <br>
-      <a href="addproduit.jsp"> <input class="btn btn-warning" type="button" value="Add"> </a>
+      <a href="addProduit.jsp"> <input class="btn btn-warning" type="button" value="Add"> </a>
                         </div>
                     </div>
                     <!-- END EXAMPLE TABLE widget-->

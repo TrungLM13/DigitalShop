@@ -9,12 +9,9 @@
 </head>
 <body>
     
-    
     <%
        Produit pro = (Produit) request.getAttribute("produit");
     %>
-      
-       
        <table>
             
             <tr>
@@ -40,10 +37,7 @@
             <tr>
                  <td>Image: </td>
                  <td><IMG SRC="<%= pro.getImage()%>"  WIDTH="50" HEIGHT="50" /></td>
-            </tr>
-            
-          
-           
+            </tr> 
        
        </table>
 </body>

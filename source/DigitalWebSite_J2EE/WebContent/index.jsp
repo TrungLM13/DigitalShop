@@ -216,7 +216,7 @@
       </button>
       <nav class="nav-collapse collapse" style="height:0px">
         <ul class="nav">
-          <li class="active"><a href="index-2.html">Home</a>
+          <li class="active"><a href="index.jsp">Home</a>
           </li>
           <li><a href="myaccount.html">My Account </a>
           </li>
@@ -261,7 +261,7 @@
 											<td class="image"><a href="<%= p.getImage() %>"><img
 													title="product" alt="product"
 													src="<%= p.getImage() %>" height="50" width="50"></a></td>
-											<td class="name"><a href="product.html"><%= p.getNom() %></a></td>
+											<td class="name"><a href="listProduit.jsp"><%= p.getNom() %></a></td>
 											<td class="quantity">x&nbsp;<%= p.getQte() %></td>
 											<td class="total">$<%= p.getPrix() %></td>
 											<td class="remove"><i class="icon-remove"></i></td>
@@ -346,12 +346,12 @@
       <div class="container">
         <nav class="subnav">
           <ul class="nav-pills categorymenu">
-            <li><a class="active"  href="index-2.html">Home</a>
+            <li><a class="active"  href="index.jsp">Home</a>
             </li>
-            <li><a   href="product.html">Products</a>
+            <li><a   href="listProduit.jsp">Products</a>
               <div>
                 <ul class="arrow">
-                  <li><a href="#"> Dresses</a>
+                  <li><a href="Dresses.jsp"> Dresses</a>
                   </li>
                   <li><a href="#"> Sun Glasses <span class="label label-success">Sale</span></a>
                   </li>
@@ -390,7 +390,7 @@
                 </ul>
               </div>
             </li>
-            <li><a  href="category.html">Category</a>
+            <li><a  href="listProduit.jsp">Category</a>
               <div>
                 <ul class="arrow">
                   <li><a href="#"> Men Products</a>
@@ -436,7 +436,7 @@
                 </ul>
               </div>
             </li>
-            <li><a href="myaccount.html">My Account</a>
+            <li><a href="listCustomer.jsp">My Account</a>
             </li>
             <li><a href="wishlist.html">Wishlist</a>
             </li>
@@ -493,7 +493,7 @@
         <li class="span3">
           <a class="prdocutname" href="#"><%= u.getNom()%></a>
           <div class="thumbnail">
-            <a href="product.html">
+            <a href="listProduit.jsp">
               <img alt="" src="<%= u.getImage()%>"></a>
             <div class="caption">
               <div class="price pull-left">

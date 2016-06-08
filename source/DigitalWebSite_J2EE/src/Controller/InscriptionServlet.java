@@ -57,7 +57,7 @@ public class InscriptionServlet extends HttpServlet {
 				   pr.executeUpdate();
 				   pr.close();
 					   
-				   resp.sendRedirect("listUtilisateur.jsp");   
+				   resp.sendRedirect("listCustomer.jsp");   
 				   
 				   
 			} catch (Exception e) {
