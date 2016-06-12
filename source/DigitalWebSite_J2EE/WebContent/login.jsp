@@ -47,7 +47,7 @@
           </li>
           <li><a href="myaccount.html">My Account </a>
           </li>
-          <li><a href="shopping-cart.html">Shopping Cart</a>
+          <li><a href="panier.jsp">Shopping Cart</a>
           </li>
           <li><a href="checkout.html">Checkout</a>
           </li>
@@ -79,7 +79,6 @@
         <li class="dropdown hover topcart">
           <a  class="dropdown-toggle" href="#">
             <i class="carticon"></i> Shopping Cart <span class="label label-success font14">0 item(s)</span> - $0<b class="caret"></b></a>
-         
         </li>
       </ul>
     </div>
@@ -108,87 +107,91 @@
           <ul class="nav-pills categorymenu">
             <li><a href="index.jsp">Home</a>
             </li>
-            <li><a   href="listProduit.jsp">Products</a>
+             <li><a   href="listProduit.jsp">Products</a>
               <div>
                 <ul class="arrow">
-                  <li><a href="#"> Dresses</a>
+                  <li><a href="#"> AirConditional</a>
                   </li>
-                  <li><a href="#"> Sun Glasses <span class="label label-success">Sale</span></a>
+                  <li><a href="#"> Television <span class="label label-success">Sale</span></a>
                   </li>
-                  <li><a href="#"> Suits & shirts </a>
+                  <li><a href="#"> Fan </a>
                   </li>
-                  <li><a href="#"> Shoes <span class="label label-info">(new)</span></a>
+                  <li><a href="#"> Light <span class="label label-info">(new)</span></a>
                   </li>
-                  <li><a href="#">Jackets & Coats <span class="label label-warning">(25)</span>
+                  <li><a href="#"> Mobile <span class="label label-warning">(25)</span>
                     </a>
                   </li>
                   <li class="divider"></li>
-                  <li><a href="#">Mice and Trackballs <span class="label label-success">Sale</span>
+                  <li><a href="#"> Laptop<span class="label label-success">Sale</span>
                     </a>
                   </li>
-                  <li><a href="#">Laptops </a>
+                  <li><a href="#"> Tablet</a>
                   </li>
-                </ul>
-                <ul class="arrow">
-                  <li><a href="#"> Dresses</a>
-                  </li>
-                  <li><a href="#"> Sun Glasses</a>
-                  </li>
-                  <li><a href="#"> Suits & shirts </a>
-                  </li>
-                  <li><a href="#"> Shoes </a>
-                  </li>
-                  <li><a href="#">Jackets & Coats <span class="label label-warning">(25)</span>
+                  <li><a href="#"> Headphone<span class="label label-warning">(25)</span>
                     </a>
-                  </li>
-                  <li class="divider"></li>
-                  <li><a href="#">Mice and Trackballs <span class="label label-important">Sale</span>
+                  <li><a href="#"> Camera<span class="label label-warning">(10)</span>
                     </a>
-                  </li>
-                  <li><a href="#">Laptops </a>
                   </li>
                 </ul>
               </div>
             </li>
-            <li><a href="typography.jsp">Features</a>
+            <li><a href="Manufacturer.jsp">Manufacture</a>
               <div>
                 <ul class="arrow">
-                  <li><a href="typography.html">Typography</a>
+                  <li><a href=" Samsung.jsp">Samsung</a>
                   </li>
-                  <li><a href="form.html">Form Elements</a>
+                  <li><a href=" LG.jsp">LG</a>
                   </li>
-                  <li><a href="buttons.html">Buttons</a>
+                  <li><a href=" Toshiba.jsp">Toshiba</a>
                   </li>
-                  <li><a href="javascript.html">Javascripts</a>
+                  <li><a href=" SenKo.jsp">Senko</a>
+                  </li>
+                  <li><a href=" SpaceX.jsp">SpaceX<span class="label label-info">(new)</span></a>
+                  </li>
+                  <li><a href=" Nikon.jsp">Niko<span class="label label-warning">(10)</span>n</a>
+                  </li>
+                </ul>
+                <ul class="arrow">
+                  <li><a href=" Asus.jsp">Asus<span class="label label-success">Sale</span></a>
+                  </li>
+                  <li><a href=" Acer.jsp">Acer</a>
+                  </li>
+                  <li><a href=" Dell.jsp">Dell<span class="label label-success">Limited</span></a>
+                  </li>
+                  <li><a href=" Alienware.jsp">Alienware</a>
+                  </li>
+                  <li><a href=" WavePTT.jsp">WavePTT<span class="label label-info">(new)</span></a>
+                  </li>
+                  <li><a href=" QMobile.jsp">QMobile</a>
                   </li>
                 </ul>
               </div>
+            </li>
+             <li><a href="wishlist.html">Favorite</a>
             </li>
             <li><a href="panier.jsp">Shopping Cart</a>
             </li>
-            <li><a href="#">Checkout</a>
+            <li><a href="listCustomer.jsp">My Account</a>
             </li>
-            <li><a href="#">Blog</a>
+            <li><a href="blog.html">Blog</a>
               <div>
                 <ul class="arrow">
-                  <li><a href="#">Blog page</a>
+                  <li><a href="blog.html">Blog page</a>
                   </li>
-                  <li><a href="#">Blog Grid View</a>
+                  <li><a href="bloggrid.html">Blog Grid View</a>
                   </li>
-                  <li><a href="#">Blog List VIew</a>
+                  <li><a href="bloglist.html">Blog List VIew</a>
                   </li>
                 </ul>
               </div>
             </li>
-            <li><a href="#">My Account</a>
+            <li><a href="login.html">Login</a>
             </li>
-            <li><a href="#">Wishlist</a>
+            <li><a href="register.html">Register</a>
             </li>
-            <li><a class="active" href="login.jsp">Login</a>
+            <li><a href="contact.html">Contact</a>
             </li>
-            <li><a href="inscription.jsp">Register</a>
-            </li>
-            <li><a href="#">Contact</a>
+            <li><a href="FAO.jsp">Fao</a>
             </li>
           </ul>
         </nav>
@@ -297,9 +300,7 @@
       <div class="row">
         <div class="span3 aboutus">
           <h2>About Us </h2>
-          <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br>
-            <br>
-            t has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+          <p> UIT Team <br>
         </div>
         <div class="span3 contact">
           <h2>Contact Us </h2>
@@ -308,8 +309,8 @@
               +123 456 7890</li>
             <li class="mobile"> +123 456 7890, +123 456 7890,<br>
               +123 456 7890</li>
-            <li class="email"> test@test.com <br>
-              test@test.com</li>
+            <li class="email"> uit.team@gmail.com <br>
+              uit.team@gmail.com</li>
           </ul>
         </div>
         <div class="span3 twitter">
@@ -360,7 +361,6 @@ document.write('<fb:fan profile_id="80655071208" stream="0"	connections="8"	logo
     <div class="container">
       <div class="row">
         <div class="span6"> All images are copyright to their owners. </div>
-        <div class="span6 textright"> ShopSimple @ 2012 </div>
       </div>
     </div>
   </section>
