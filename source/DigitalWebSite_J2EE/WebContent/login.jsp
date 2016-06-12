@@ -43,7 +43,7 @@
       </button>
       <nav class="nav-collapse collapse" style="height:0px">
         <ul class="nav">
-          <li class="active"><a href="index-2.html">Home</a>
+          <li class="active"><a href="index.jsp">Home</a>
           </li>
           <li><a href="myaccount.html">My Account </a>
           </li>
@@ -106,9 +106,9 @@
       <div class="container">
         <nav class="subnav">
           <ul class="nav-pills categorymenu">
-            <li><a href="index-2.html">Home</a>
+            <li><a href="index.jsp">Home</a>
             </li>
-            <li><a   href="product.html">Products</a>
+            <li><a   href="listProduit.jsp">Products</a>
               <div>
                 <ul class="arrow">
                   <li><a href="#"> Dresses</a>
@@ -150,23 +150,7 @@
                 </ul>
               </div>
             </li>
-            <li><a  href="category.html">Category</a>
-              <div>
-                <ul class="arrow">
-                  <li><a href="#"> Men Products</a>
-                  </li>
-                  <li><a href="#"> Women Products</a>
-                  </li>
-                  <li><a href="#"> Child Products</a>
-                  </li>
-                  <li><a href="#"> Home and Furniture</a>
-                  </li>
-                  <li><a href="#">Electric Accessories</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="typography.html">Features</a>
+            <li><a href="typography.jsp">Features</a>
               <div>
                 <ul class="arrow">
                   <li><a href="typography.html">Typography</a>
@@ -295,9 +279,6 @@
                 </li>
                 <li>
                   <a href="#"> Transactions</a>
-                </li>
-                <li>
-                  <a href="category.html">Newsletter</a>
                 </li>
               </ul>
             </div>

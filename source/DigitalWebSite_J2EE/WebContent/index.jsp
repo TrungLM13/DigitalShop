@@ -38,23 +38,12 @@
 			  
 		      }
 		    
-		}catch(Exception e){}
-   
-   
-   
+		}catch(Exception e){}  
    %>
-    
-   
-    
-    
     <%
-    
-    
-    
+
     Utilisateur utilisateur = (Utilisateur) request.getSession().getAttribute("user");
-    
-    
-    	
+	
     	if(utilisateur == null){
     		
     		 System.out.println( "Error!! ");
@@ -386,22 +375,6 @@
                     </a>
                   </li>
                   <li><a href="#">Laptops </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li><a  href="listProduit.jsp">Category</a>
-              <div>
-                <ul class="arrow">
-                  <li><a href="#"> Men Products</a>
-                  </li>
-                  <li><a href="#"> Women Products</a>
-                  </li>
-                  <li><a href="#"> Child Products</a>
-                  </li>
-                  <li><a href="#"> Home and Furniture</a>
-                  </li>
-                  <li><a href="#">Electric Accessories</a>
                   </li>
                 </ul>
               </div>
